@@ -1,64 +1,108 @@
-# UrbanSupply-Co-s-sales-performance
-Here is the project report structured around the sales data provided.
+#  Urban Supply Co — Sales Analysis Report
 
-Sales Performance Analysis: Project Report
-1. Project Objectives
-Evaluate Business Performance: Analyze historical sales and transaction data to assess the overall financial health of the business.
+A comprehensive sales intelligence dashboard built using **Microsoft Power BI**, analyzing transactional data from **2018 to 2021** across customer segments, product categories, and US geographic regions.
 
-Identify Growth Drivers: Pinpoint the highest-performing product categories, customer segments, and geographic regions.
+---
 
-Optimize Profitability: Understand the relationship between sales volume, applied discounts, and final profit margins to recommend better pricing strategies.
 
-Streamline Operations: Assess shipping modes and order-to-ship timeframes to ensure operational efficiency.
+##  Overview
 
-2. Questions (KPIs)
-To guide the analysis and measure success, the following Key Performance Indicators (KPIs) and core business questions have been established.
+The **Urban Supply Co Sales Analysis Report** provides a data-driven overview of sales performance from 2018 to 2021. Using Microsoft Power BI, this report visualizes revenue trends, customer behavior, regional distribution, and profitability patterns to support strategic business decision-making.
 
-Key Performance Indicators (KPIs):
 
-Total Sales Revenue
+---
 
-Total Profit
+##  Objectives
 
-Overall Profit Margin (%)
+The goal of this report is to provide a data-driven overview of Urban Supply Co's sales performance to support strategic decision-making.
 
-Average Order Value (AOV)
+-  Analyze total sales revenue, quantity, discounts, and profit across the business
+-  Identify high and low performing product sub-categories
+-  Evaluate customer segment performance — Consumer, Corporate, Home Office
+-  Understand regional sales distribution across the US (West, East, Central, South)
+-  Track sales trends over time and detect seasonal patterns
+-  Support inventory management, pricing strategy, and customer targeting
+-  Enable leadership to benchmark performance and set data-informed goals
 
-Total Number of Orders / Quantity Sold
+---
 
-Core Business Questions:
+##  Key Questions (KPIs)
 
-Which product categories (Furniture, Office Supplies, Technology) and sub-categories generate the most revenue and highest profit?
+- Which customer segment drives the most revenue?
+- Which product sub-categories are top and bottom performers?
+- How are sales distributed across US regions?
+- What is the monthly and annual sales trend from 2018 to 2021?
+- Which states have the highest order concentration?
+- How do discount levels affect profitability?
+- Are there seasonal spikes that should inform campaign planning?
 
-Which geographic regions and specific states are the most lucrative?
+---
 
-How do purchasing behaviors differ across customer segments (Consumer, Corporate, Home Office)?
+##  Dashboard
 
-At what threshold do discounts begin to negatively impact overall profitability?
+> *Dashboard screenshot — Power BI interactive report covering 2018–2021 sales data.*
 
-3. Dashboard (Proposed Architecture)
-A business intelligence dashboard should be constructed to monitor these metrics continuously. The recommended layout includes:
 
-Executive Scorecard (Top): High-level KPI summary cards displaying Total Sales, Total Profit, Profit Margin, and Total Quantity Sold, complete with period-over-period percentage changes.
 
-Time-Series Analysis (Middle-Left): A dual-axis line chart tracking Sales and Profit trends over time (monthly and quarterly) to identify seasonal buying patterns.
+---
 
-Demographic & Regional View (Middle-Right): A geographic heat map highlighting sales density and profitability by State/Region, paired with a donut chart showing the revenue breakdown by Customer Segment.
+##  Project Insights
 
-Product Performance Matrix (Bottom): A sorted horizontal bar chart ranking Sub-Categories by Sales volume, color-coded by Profit margin (e.g., green for highly profitable, red for loss-making).
+| # | Category | Insight |
+|---|---|---|
+| 01 |  Top Segment | Consumer segment dominates with **50.56%** of total sales (**$1.16M**), making it the primary revenue driver |
+| 02 |  Leading Sub-Categories | **Phones** and **Chairs** are top performers, reflecting strong office and workspace purchasing behavior |
+| 03 |  High Storage Demand | **Storage ($223.84K)** and **Tables ($206.97K)** rank 3rd and 4th, indicating high demand for office infrastructure |
+| 04 |  West Region Leads | West tops regional sales at **$725.72K (31.59%)**, followed by East at **$678.78K** — together exceeding **61%** of revenue |
+| 05 |  South Region Opportunity | South contributes only **17.04% ($391.46K)**, representing a significant untapped market opportunity |
+| 06 |  Sales Growth Trend | Clear **upward trajectory** from 2018 to 2021 with notable peaks in late 2020 and early 2021 |
+| 07 |  Seasonal Peaks | **Q4 end-of-year sales spikes** align with B2B procurement cycles and year-end budget utilization |
+| 08 |  Fasteners Underperform | Fasteners record only **$3.02K (0.9%)**, making them a candidate for discontinuation or bundled promotions |
+| 09 |  Discount vs Profit Risk | High discounts in categories like **Tables** correlate with **negative profit margins**, requiring a pricing review |
+| 10 |  Low Profit Margin | **$2.30M** in sales yields only **$286.40K profit (~12.4%)**, with Furniture discounts eroding overall margins |
 
-4. Project Insights
-An initial review of the sales dataset reveals several key operational realities:
+---
 
-Category Dynamics: There is a distinct variance in profitability across the product portfolio. Technology products (such as Phones and Accessories) tend to drive high sales figures with strong profit margins. Conversely, the Furniture category (particularly items like Bookcases and Tables) generates substantial revenue but frequently suffers from tight or negative profit margins.
+##  Conclusion
 
-The Cost of Discounting: Discounts are heavily impacting the bottom line. Data points indicate that when standard discounts (e.g., 20%) are applied to high-ticket items, the resulting profit drops precipitously, sometimes threatening the viability of the sale.
+This Power BI dashboard delivers a transparent view of **UrbanSupply Co's commercial performance from 2018 to 2021**, confirming consistent business growth driven by the Consumer segment and strong demand in Technology and Furniture.
 
-Consumer Dominance: The "Consumer" segment drives a massive portion of the order volume, though the "Corporate" segment represents a highly efficient revenue stream with potentially larger basket sizes.
+---
 
-Regional Strengths: Sales are geographically diverse but heavily concentrated in specific strongholds across the West and South regions (e.g., California).
+##  Key Recommendations
 
-5. Conclusion
-The organization maintains a robust and high-volume revenue stream supported by a diverse product catalog and a strong presence in the Consumer segment. However, total profitability is being bottlenecked by an inefficient discount strategy, particularly within the Furniture category.
+| Priority | Area | Action |
+|---|---|---|
+| 🔴 High | Consumer Segment | Nurture with **loyalty programs** and targeted upsell campaigns |
+| 🔴 High | West & East Regions | Continue **investment** as the primary revenue engines |
+| 🟡 Medium | South Region | Prioritize in the next **sales expansion cycle** — high untapped potential |
+| 🟡 Medium | Tables & Bookcases | Review **pricing strategy** — high discounts are reducing profitability |
+| 🟢 Low | Fasteners & Low-Value SKUs | Evaluate for **portfolio rationalization** |
+| 🟢 Low | Q4 Seasonality | Align inventory, staffing, and marketing with **year-end demand patterns** |
 
-To maximize future growth, the business should revise its discount thresholds to protect profit margins on heavy or expensive items. Additionally, reallocating marketing resources to promote high-margin Technology products and expanding outreach within the Corporate segment will help stabilize long-term profitability while maintaining market share.
+---
+
+## 🛠️ Tools & Tech Stack
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+
+---
+
+##  Project Structure
+
+```
+UrbanSupply_Co/
+│
+├── 📊 dashboard/
+│   └── UrbanSupply_Dashboard.pbix    # Power BI report file
+│
+├── 📂 data/
+│   └── sales_data_2018_2021.csv      # Raw transactional data
+│
+├── 🖼️ assets/
+│   └── dashboard.png                 # Dashboard screenshot
+│
+└── 📄 README.md                      # Project documentation
+```
+
